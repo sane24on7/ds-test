@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test task for Digital Spectr</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="popup">
+    <h3 class="popup__title">Задать вопрос</h3>
+    <form action="https://60376bfd5435040017722533.mockapi.io/form" method="post" class="feedback">
+      <input type="text" class="feedback__input feedback__input_text" name="name" placeholder="Фамилия Имя Отчество *" required>
+      <input type="tel" class="feedback__input feedback__input_text" name="phone" placeholder="Телефон *" required>
+      <input type="email" class="feedback__input feedback__input_text" name="email" placeholder="Email">
+      <input type="submit" class="feedback__input feedback__input_submit" value="Отправить запрос">
+    </form>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
